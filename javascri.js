@@ -1,7 +1,6 @@
 let selecciones
 let img
 setTimeout(Tablero, 1);
-setTimeout(aplicarFiltro, 1);
 Tablero();
 
 function generarimg(){
