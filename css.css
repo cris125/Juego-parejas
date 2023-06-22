@@ -1,0 +1,50 @@
+:root {
+    --w: calc(70vw / 6);
+    --h: calc(70vh / 4);
+}
+
+* {
+    transition: all 0.5s;
+}
+
+body{
+    margin: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.juego{
+    
+    display: inline-block;
+    
+}
+.juego > a {
+    justify-content: center;
+    height:100%;
+    
+}
+img{
+    cursor: pointer;
+    height: 120px;
+    width: 200px;
+    background-color: rgb(238, 238, 238);
+    border: solid  rgb(64, 121, 177) 5px ;
+    border-radius: 5px;
+    
+}
+.wg{
+    background-color: rgb(92, 147, 49);
+    color: whitesmoke;
+    height: 3em;
+    width: 15em;
+    font-size: larger;
+    border: none;
+    border-radius: 5px;
+}
+.wg:hover{
+    background-color: rgb(124, 208, 60);
+    border: rgb(10, 138, 10) 2px solid;
+   
+}
